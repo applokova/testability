@@ -1,3 +1,5 @@
+package src;
+
 public class BonusMilesService {
     public int calculate(int coast) {
         int result;
