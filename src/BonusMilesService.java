@@ -5,7 +5,9 @@ public class BonusMilesService {
         int result;
         if (coast >= 20) {
             result = coast / 20;
-        } else result = 0;
+        } else {
+            result = 0;
+        }
         return result;
     }
 }
